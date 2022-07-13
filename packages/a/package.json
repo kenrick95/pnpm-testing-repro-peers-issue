@@ -1,0 +1,16 @@
+{
+  "name": "@kenrick95/internal-a",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "~1.5.0",
+    "immer": "~8.0.0",
+    "redux-thunk": "~2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@kenrick95/internal-b",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "react-redux": "^7.2.5"
+  }
+}

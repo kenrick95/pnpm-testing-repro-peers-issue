@@ -1,0 +1,20 @@
+{
+  "name": "@kenrick95/external-depend-on-internal",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "devDependencies": {
+    "@kenrick95/internal-a": "^1.0.0",
+    "@kenrick95/internal-b": "^1.0.0",
+    "@kenrick95/internal-c": "^1.0.0",
+    "@kenrick95/internal-d": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@kenrick95/internal-a": "^1.0.0",
+    "@kenrick95/internal-b": "^1.0.0",
+    "@kenrick95/internal-c": "^1.0.0",
+    "@kenrick95/internal-d": "^1.0.0"
+  }
+}

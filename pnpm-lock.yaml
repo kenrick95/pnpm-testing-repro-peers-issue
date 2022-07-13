@@ -1,0 +1,320 @@
+lockfileVersion: 5.4
+
+packageExtensionsChecksum: 21ac1f291600880b7d54a2396ec98258
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/a:
+    specifiers:
+      '@reduxjs/toolkit': ~1.5.0
+      '@types/node': ^17.0.40
+      immer: ~8.0.0
+      redux-thunk: ~2.3.0
+    dependencies:
+      '@reduxjs/toolkit': 1.5.1
+      immer: 8.0.4
+      redux-thunk: 2.3.0_redux@4.2.0
+    devDependencies:
+      '@types/node': 17.0.45
+
+  packages/b:
+    specifiers:
+      react-redux: ^7.2.5
+    dependencies:
+      react-redux: 7.2.8_react@16.11.0
+
+  packages/c:
+    specifiers:
+      '@reduxjs/toolkit': ^1.8.0
+    dependencies:
+      '@reduxjs/toolkit': 1.8.3
+
+  packages/d:
+    specifiers:
+      '@reduxjs/toolkit': ^1.8.0
+    dependencies:
+      '@reduxjs/toolkit': 1.8.3
+
+  packages/e:
+    specifiers:
+      '@kenrick95/external-depend-on-internal': ^1.0.0
+      '@kenrick95/internal-a': ''
+      '@kenrick95/internal-b': ''
+      '@kenrick95/internal-c': ''
+      '@kenrick95/internal-d': ''
+    dependencies:
+      '@kenrick95/external-depend-on-internal': 1.0.0_react@16.11.0+redux@4.2.0
+
+packages:
+
+  /@babel/runtime/7.18.6:
+    resolution: {integrity: sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.13.9
+    dev: false
+
+  /@kenrick95/external-depend-on-internal/1.0.0_react@16.11.0+redux@4.2.0:
+    resolution: {integrity: sha512-WYQ1lrLTmekhET2fPfJn1m17pIDB6CPL3jZsSXHPC9zQfjsAGZbClorVgVv2cA7Vs+yp2Q6GqwEqaIoDgSm3LQ==}
+    dependencies:
+      '@kenrick95/internal-a': 1.0.0_redux@4.2.0
+      '@kenrick95/internal-b': 1.0.0_react@16.11.0
+      '@kenrick95/internal-c': 1.0.0_react@16.11.0
+      '@kenrick95/internal-d': 1.0.0_react@16.11.0
+      '@kenrick95/internal-e': 1.0.0_react@16.11.0+redux@4.2.0
+    transitivePeerDependencies:
+      - react
+      - react-dom
+      - react-native
+      - react-redux
+      - redux
+    dev: false
+
+  /@kenrick95/internal-a/1.0.0_redux@4.2.0:
+    resolution: {integrity: sha512-2BZyzKPMxkFiylyxh8oxUpX4KPUH7ofrHgWHPbh+jo7CD7m7nXyLU41EGa8BHQ72IoaRKR5PJM1L+X9SfzJQvg==}
+    dependencies:
+      '@reduxjs/toolkit': 1.5.1
+      immer: 8.0.4
+      redux-thunk: 2.3.0_redux@4.2.0
+    transitivePeerDependencies:
+      - redux
+    dev: false
+
+  /@kenrick95/internal-b/1.0.0_react@16.11.0:
+    resolution: {integrity: sha512-vHvzg7xkWyCwL04muKsKJPL4ti2P7WcbfkwfV5E6RnMKctXcDuB06M5pOQj5RVHP1T8l5U20PUH+saOxuAoM2g==}
+    dependencies:
+      react-redux: 7.2.8_react@16.11.0
+    transitivePeerDependencies:
+      - react
+      - react-dom
+      - react-native
+    dev: false
+
+  /@kenrick95/internal-c/1.0.0_react@16.11.0:
+    resolution: {integrity: sha512-k5Y/nodLDl6IDjkP4cPIw+uG8W1UU6OvlivY+OZBqXuQKVKW24Qf7SWctH3028UVMNYH9+adsZbM9a168+5dQQ==}
+    dependencies:
+      '@reduxjs/toolkit': 1.8.3_react@16.11.0
+    transitivePeerDependencies:
+      - react
+      - react-redux
+    dev: false
+
+  /@kenrick95/internal-d/1.0.0_react@16.11.0:
+    resolution: {integrity: sha512-NpwDU8+dn+FgRFIFqILVsOFEwn4mRnWzLaXDRdblbh8j0PQMmaQ6TvgRZ3zw1fDTuV7qPNMnaLSoMRIZCB/7GQ==}
+    dependencies:
+      '@reduxjs/toolkit': 1.8.3_react@16.11.0
+    transitivePeerDependencies:
+      - react
+      - react-redux
+    dev: false
+
+  /@kenrick95/internal-e/1.0.0_react@16.11.0+redux@4.2.0:
+    resolution: {integrity: sha512-TfxkFnBQ7F+NoTxcGTsOTwqqjTZHHWcM4UzyoGdVXNIMTjr9U8AHTaXu0ybd8xPNHdVOas7m81E826EB0AgV2g==}
+    dependencies:
+      '@kenrick95/external-depend-on-internal': 1.0.0_react@16.11.0+redux@4.2.0
+    transitivePeerDependencies:
+      - react
+      - react-dom
+      - react-native
+      - react-redux
+      - redux
+    dev: false
+
+  /@reduxjs/toolkit/1.5.1:
+    resolution: {integrity: sha512-PngZKuwVZsd+mimnmhiOQzoD0FiMjqVks6ituO1//Ft5UEX5Ca9of13NEjo//pU22Jk7z/mdXVsmDfgsig1osA==}
+    dependencies:
+      immer: 8.0.4
+      lodash: 4.17.21
+      redux: 4.2.0
+      redux-thunk: 2.3.0_redux@4.2.0
+      reselect: 4.1.6
+    dev: false
+
+  /@reduxjs/toolkit/1.8.3:
+    resolution: {integrity: sha512-lU/LDIfORmjBbyDLaqFN2JB9YmAT1BElET9y0ZszwhSBa5Ef3t6o5CrHupw5J1iOXwd+o92QfQZ8OJpwXvsssg==}
+    peerDependencies:
+      react: ^16.9.0 || ^17.0.0 || ^18
+      react-redux: ^7.2.1 || ^8.0.2
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-redux:
+        optional: true
+    dependencies:
+      immer: 9.0.15
+      lodash: 4.17.21
+      redux: 4.2.0
+      redux-thunk: 2.4.1_redux@4.2.0
+      reselect: 4.1.6
+    dev: false
+
+  /@reduxjs/toolkit/1.8.3_react@16.11.0:
+    resolution: {integrity: sha512-lU/LDIfORmjBbyDLaqFN2JB9YmAT1BElET9y0ZszwhSBa5Ef3t6o5CrHupw5J1iOXwd+o92QfQZ8OJpwXvsssg==}
+    peerDependencies:
+      react: ^16.9.0 || ^17.0.0 || ^18
+      react-redux: ^7.2.1 || ^8.0.2
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-redux:
+        optional: true
+    dependencies:
+      immer: 9.0.15
+      react: 16.11.0
+      redux: 4.2.0
+      redux-thunk: 2.4.1_redux@4.2.0
+      reselect: 4.1.6
+    dev: false
+
+  /@types/hoist-non-react-statics/3.3.1:
+    resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
+    dependencies:
+      '@types/react': 18.0.15
+      hoist-non-react-statics: 3.3.2
+    dev: false
+
+  /@types/node/17.0.45:
+    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+    dev: true
+
+  /@types/prop-types/15.7.5:
+    resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
+    dev: false
+
+  /@types/react-redux/7.1.24:
+    resolution: {integrity: sha512-7FkurKcS1k0FHZEtdbbgN8Oc6b+stGSfZYjQGicofJ0j4U0qIn/jaSvnP2pLwZKiai3/17xqqxkkrxTgN8UNbQ==}
+    dependencies:
+      '@types/hoist-non-react-statics': 3.3.1
+      '@types/react': 18.0.15
+      hoist-non-react-statics: 3.3.2
+      redux: 4.2.0
+    dev: false
+
+  /@types/react/18.0.15:
+    resolution: {integrity: sha512-iz3BtLuIYH1uWdsv6wXYdhozhqj20oD4/Hk2DNXIn1kFsmp9x8d9QB6FnPhfkbhd2PgEONt9Q1x/ebkwjfFLow==}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.1.0
+    dev: false
+
+  /@types/scheduler/0.16.2:
+    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: false
+
+  /csstype/3.1.0:
+    resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
+    dev: false
+
+  /hoist-non-react-statics/3.3.2:
+    resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
+    dependencies:
+      react-is: 16.13.1
+    dev: false
+
+  /immer/8.0.4:
+    resolution: {integrity: sha512-jMfL18P+/6P6epANRvRk6q8t+3gGhqsJ9EuJ25AXE+9bNTYtssvzeYbEd0mXRYWCmmXSIbnlpz6vd6iJlmGGGQ==}
+    dev: false
+
+  /immer/9.0.15:
+    resolution: {integrity: sha512-2eB/sswms9AEUSkOm4SbV5Y7Vmt/bKRwByd52jfLkW4OLYeaTP3EEiJ9agqU0O/tq6Dk62Zfj+TJSqfm1rLVGQ==}
+    dev: false
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /object-assign/4.1.1:
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /prop-types/15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+
+  /react-is/16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: false
+
+  /react-is/17.0.2:
+    resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
+    dev: false
+
+  /react-redux/7.2.8_react@16.11.0:
+    resolution: {integrity: sha512-6+uDjhs3PSIclqoCk0kd6iX74gzrGc3W5zcAjbrFgEdIjRSQObdIwfx80unTkVUYvbQ95Y8Av3OvFHq1w5EOUw==}
+    peerDependencies:
+      react: ^16.8.3 || ^17 || ^18
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.18.6
+      '@types/react-redux': 7.1.24
+      hoist-non-react-statics: 3.3.2
+      loose-envify: 1.4.0
+      prop-types: 15.8.1
+      react: 16.11.0
+      react-is: 17.0.2
+    dev: false
+
+  /react/16.11.0:
+    resolution: {integrity: sha512-M5Y8yITaLmU0ynd0r1Yvfq98Rmll6q8AxaEe88c8e7LxO8fZ2cNgmFt0aGAS9wzf1Ao32NKXtCl+/tVVtkxq6g==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.8.1
+    dev: false
+
+  /redux-thunk/2.3.0_redux@4.2.0:
+    resolution: {integrity: sha512-km6dclyFnmcvxhAcrQV2AkZmPQjzPDjgVlQtR0EQjxZPyJ0BnMf3in1ryuR8A2qU0HldVRfxYXbFSKlI3N7Slw==}
+    peerDependencies:
+      redux: ^4.0.0
+    dependencies:
+      redux: 4.2.0
+    dev: false
+
+  /redux-thunk/2.4.1_redux@4.2.0:
+    resolution: {integrity: sha512-OOYGNY5Jy2TWvTL1KgAlVy6dcx3siPJ1wTq741EPyUKfn6W6nChdICjZwCd0p8AZBs5kWpZlbkXW2nE/zjUa+Q==}
+    peerDependencies:
+      redux: ^4
+    dependencies:
+      redux: 4.2.0
+    dev: false
+
+  /redux/4.2.0:
+    resolution: {integrity: sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==}
+    dependencies:
+      '@babel/runtime': 7.18.6
+    dev: false
+
+  /regenerator-runtime/0.13.9:
+    resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
+    dev: false
+
+  /reselect/4.1.6:
+    resolution: {integrity: sha512-ZovIuXqto7elwnxyXbBtCPo9YFEr3uJqj2rRbcOOog1bmu2Ag85M4hixSwFWyaBMKXNgvPaJ9OSu9SkBPIeJHQ==}
+    dev: false
